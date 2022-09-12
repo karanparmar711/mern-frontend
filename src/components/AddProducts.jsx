@@ -27,6 +27,8 @@ const defaultValue = {
   price: "",
 };
 
+// console.log("i am karan parmar")
+
 const AddProducts = () => {
   const [product, SetProduct] = useState(defaultValue);
   const navigate = useNavigate();
